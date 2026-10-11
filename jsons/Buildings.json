@@ -4,7 +4,7 @@
 		"isWonder": true,
 		"requiredTech": "Combustion",
 		"production": 5,
-		"uniques": ["Provides [6] [Auto]",
+		"uniques": ["Provides [5] [Auto]","Provides [1] [Auto] <in all cities>",
 			"Can only be built <in [in capital] cities> <hidden from users>",
 			"Only available <in cities without a [Furs Corp]> <hidden from users>",
 			"Only available <in cities without a [Oil Corp]> <hidden from users>",
