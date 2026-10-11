@@ -1,25 +1,28 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Auto Corp",
+		"isWonder": true,
+		"requiredTech": "Combustion",
+		"uniques": ["Provides [6] [Auto]",
+			"Can only be built <in [in capital] cities> <hidden from users>",
+			"Only available <in cities without a [Oil Corp]> <hidden from users>",
+			"Only available <in cities without a [Steel Corp]> <hidden from users>"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Oil Corp",
+		"isWonder": true,
+		"requiredTech": "Biology",
+		"uniques": ["Provides [2] [Oil]","[+67]% [Oil] resource production",
+			"Can only be built <in [in capital] cities> <hidden from users>",
+			"Only available <in cities without a [Auto Corp]> <hidden from users>",
+			"Only available <in cities without a [Steel Corp]> <hidden from users>"]
+	},
+	{
+		"name": "Steel Corp",
+		"isWonder": true,
+		"requiredTech": "Steel",
+		"uniques": ["Provides [2] [Iron]","[+67]% [Iron] resource production",
+			"Can only be built <in [in capital] cities> <hidden from users>",
+			"Only available <in cities without a [Auto Corp]> <hidden from users>",
+			"Only available <in cities without a [Oil Corp]> <hidden from users>"]
 ]
