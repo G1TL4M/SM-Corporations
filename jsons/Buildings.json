@@ -3,27 +3,60 @@
 		"name": "Auto Corp",
 		"isWonder": true,
 		"requiredTech": "Combustion",
+		"production": 5,
 		"uniques": ["Provides [6] [Auto]",
 			"Can only be built <in [in capital] cities> <hidden from users>",
+			"Only available <in cities without a [Furs Corp]> <hidden from users>",
 			"Only available <in cities without a [Oil Corp]> <hidden from users>",
-			"Only available <in cities without a [Steel Corp]> <hidden from users>"]
+			"Only available <in cities without a [Steel Corp]> <hidden from users>",
+			"Only available <in cities without a [Spice Corp]> <hidden from users>"]
+	},
+	{
+		"name": "Furs Corp",
+		"isWonder": true,
+		"requiredTech": "Astronomy",
+		"gold": 5,
+		"uniques": ["Provides [2] [Furs]","[+2 Gold] from [Furs] tiles [in all cities]",
+			"Can only be built <in [in capital] cities> <hidden from users>",
+			"Only available <in cities without a [Auto Corp]> <hidden from users>",
+			"Only available <in cities without a [Oil Corp]> <hidden from users>",
+			"Only available <in cities without a [Steel Corp]> <hidden from users>",
+			"Only available <in cities without a [Spice Corp]> <hidden from users>"]
 	},
 	{
 		"name": "Oil Corp",
 		"isWonder": true,
 		"requiredTech": "Biology",
+		"production": 5,
 		"uniques": ["Provides [2] [Oil]","[+67]% [Oil] resource production",
 			"Can only be built <in [in capital] cities> <hidden from users>",
 			"Only available <in cities without a [Auto Corp]> <hidden from users>",
+			"Only available <in cities without a [Furs Corp]> <hidden from users>",
+			"Only available <in cities without a [Steel Corp]> <hidden from users>",
+			"Only available <in cities without a [Spice Corp]> <hidden from users>"]
+	},
+	{
+		"name": "Spice Corp",
+		"isWonder": true,
+		"requiredTech": "Astronomy",
+		"gold": 5,
+		"uniques": ["Provides [2] [Furs]","[+2 Gold] from [Furs] tiles [in all cities]",
+			"Can only be built <in [in capital] cities> <hidden from users>",
+			"Only available <in cities without a [Auto Corp]> <hidden from users>",
+			"Only available <in cities without a [Furs Corp]> <hidden from users>",
+			"Only available <in cities without a [Oil Corp]> <hidden from users>",
 			"Only available <in cities without a [Steel Corp]> <hidden from users>"]
 	},
 	{
 		"name": "Steel Corp",
 		"isWonder": true,
 		"requiredTech": "Steel",
+		"production": 5,
 		"uniques": ["Provides [2] [Iron]","[+67]% [Iron] resource production",
 			"Can only be built <in [in capital] cities> <hidden from users>",
 			"Only available <in cities without a [Auto Corp]> <hidden from users>",
-			"Only available <in cities without a [Oil Corp]> <hidden from users>"]
+			"Only available <in cities without a [Furs Corp]> <hidden from users>",
+			"Only available <in cities without a [Oil Corp]> <hidden from users>",
+			"Only available <in cities without a [Spice Corp]> <hidden from users>"]
 	}
 ]
